@@ -1,0 +1,52 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* PHONE MEDIA */
+
+@media screen and (max-width: 375px) {
+
+    /* GENERAL*/
+
+body {
+    font-size: 18px; 
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* DESKTOP MEDIA  */
+
+@media screen and (max-width: 1440px) {
+
+}
