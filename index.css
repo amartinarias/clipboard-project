@@ -8,29 +8,181 @@
 
     /* GENERAL*/
 
+*{ 
+  margin: 15px;
+  
+    }
+
 body {
-    font-size: 18px; 
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 25px;
+    
+    ;
 }
 
+ .c { 
+    background-image: url('images/bg-header-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    margin-top: 100px;
+ }
+
+ .head {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+/* TEXT FORMATTING */
+
+h1 {
+    font-size: 34px !important;
+    color: hsl(210, 10%, 33%);
+    line-height: 40px;
+}
+
+.text {
+    font-size: 15px;
+    color: hsl(201, 11%, 66%);
+}
+
+.first {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+/* BUTTONS */
+
+.ios {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    height: 50px;
+    width: 90%;
+    margin: 0;
+    border-radius: 20px;
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    margin-top: 25px;
+}
+
+.mac {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    height: 50px;
+    width: 90%;
+    margin: 0;
+    border-radius: 20px;
+    background-color:hsl(233, 100%, 69%);
+    border: none;
+    margin-bottom: 0px;
+}
+
+/* IMAGES */
+
+.screen { 
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.devices {
+    width: 340px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.pics {
+    margin-top: 60px;
+}
+
+/* MAIN HEADERS */
+
+.clip {
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    margin-bottom: 33px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+
+.title {
+    color: hsl(210, 10%, 33%);
+    font-size: 31px;
+    margin-top: 32px;
+    font-weight: 600;
+}
+
+/* BOTTOM TEXT  */
+
+#icons {
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.03rem;
+    
+}
+
+.endpage {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.endpage .mac {
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 140px;
+    height: auto;
+}
+
+/* FOOTER FORMATTING */
+
+.copy {
+    width: 60px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    margin: 0 !important;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social_media {
+    width: 30px;
+    height: auto;
+    display: flex;
+    
+}
+
+/* LINKS */
+
 a { color: hsl(228, 45%, 44%); }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
